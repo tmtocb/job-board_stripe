@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'gravatar_image_tag', '~> 1.2'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
