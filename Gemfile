@@ -17,6 +17,8 @@ gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise'
 gem 'bulma-rails', "~> 0.9.1"
 gem 'simple_form'
+gem 'stripe', '~> 5.28'
+gem 'trix-rails', require: 'trix'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
